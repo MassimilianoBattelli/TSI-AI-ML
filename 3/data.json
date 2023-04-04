@@ -1,0 +1,28 @@
+{
+    "folders": {
+        "out": "./"
+    },
+    "params": {
+        "pattern": ["*.bmp","*.png"],
+        "save_on_disk": true,
+        "as_npz": false,
+        "as_png": true,
+        "number_of_synthetic_objects": 100,
+        "validation_percentage": 0.2,
+        "test_percentage": 0.2
+    },
+    "synth_image": {
+        "builder_type": "colored_shapes",
+        "output_size": [256, 256, 3]
+    },
+    "colored_shapes": {
+        "use_square": true,
+        "use_triangle": true,
+        "use_circle": true,
+        "use_pentagone": true,
+        "do_rotation": true,
+        "do_scaling": true,
+        "do_translation": true,
+        "do_flip": true
+    }
+}
